@@ -28,6 +28,7 @@ Thumbs.db
 *.log
 *.pid
 *.lock
+*lock.json
 *.tmp
 *.swp
 

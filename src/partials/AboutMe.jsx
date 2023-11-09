@@ -15,11 +15,11 @@ function AboutMe() {
         <h3>I'm Isaac Alexis Rivera</h3>
         <span class="tag">Data Analyst | ML Engineer</span>
         
-        <p>I am a Data Analyst based in Lima, Peru. 
-        My primary focus revolves around providing high-quality data analysis services and expert guidance, specializing in areas such
-        as data mining and predictive modeling. My objective is to contribute to Companies to success and ensure
-        optimal data utilization. I am enthusiastic about exploring new opportunities that allow me to enhance skills in
-        Data Analytics and Data Science.</p>
+        <p>I am a Machine Learning Engineer based in Lima, Peru. 
+        An ambitious and dedicated professional with a strong background in business and IT. My primary focus is on providing
+        reliable Data Analytics services, with a focus on areas such as data exploring and predictive modeling. I am eager to
+        contribute to a company's success by ensuring effective data utilization. I am enthusiastic about exploring new opportunities
+        that allow me to further develop my skills in Data Analytics and Data Science as I continue to grow in my career.</p>
         
         <div class="box-container">
             <div class="box">

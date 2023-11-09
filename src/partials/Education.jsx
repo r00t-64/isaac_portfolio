@@ -12,7 +12,7 @@ function Education() {
                 <img draggable="false" src="./assets/images/educat/school.jpg" alt=""/>
                 </div>
                 <div class="content">
-                <h3>BIG DATA ANALYTICS</h3>
+                <h3>BIG DATA & ANALYTICS</h3>
                 <p>Specialization Program | CTIC - UNI</p>
                 <h4>2023 | Completed</h4>
                 </div>

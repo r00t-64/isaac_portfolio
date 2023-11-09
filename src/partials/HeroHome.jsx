@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import Particles from 'react-particles-js';
 
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
+
+  // Initialize particles.js
+  particlesJS('particles-js', {
+    // particles.js configuration options
+  });
 
   return (
     <section class="home" id="home">

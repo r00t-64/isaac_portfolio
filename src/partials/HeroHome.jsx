@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-import Particles from 'react-particles-js';
 
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
-  // Initialize particles.js
-  particlesJS('particles-js', {
-    // particles.js configuration options
-  });
-
   return (
     <section class="home" id="home">
-      <div id="particles-js"></div>
 
       <div class="content">
         <h2>Hi There,<br /> I'm Isaac <span>Rivera</span></h2>
@@ -36,7 +29,6 @@ function HeroHome() {
         <img draggable="false" class="tilt" src="./src/images/hero.png" alt="" />
       </div>
     </section>
-
 
   );
 }

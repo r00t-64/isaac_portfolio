@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-transition-group": "^4.4.5",
-    "react-tsparticles": "^2.12.2"
+    "particles.js": "^2.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^3.1.0",

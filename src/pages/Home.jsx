@@ -3,6 +3,9 @@ import React from 'react';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import Footer from '../partials/Footer';
+import AboutMe from '../partials/AboutMe';
+import Skills from '../partials/Skills';
+import Education from '../partials/Education';
 
 function Home() {
   return (
@@ -18,11 +21,14 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+        <AboutMe />
+        <Skills />
+        <Education/>
       </main>
-
 
       {/*  Site footer */}
       <Footer />
+      
     </div>
   );
 }

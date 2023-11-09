@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CollegePic from '../images/educat/college.jpg';
+import InstitutePic from '../images/educat/institute.jpg';
 
 function Education() {
   return (
@@ -9,7 +11,7 @@ function Education() {
         <div class="box-container">
             <div class="box">
                 <div class="image">
-                <img draggable="false" src="./assets/images/educat/school.jpg" alt=""/>
+                <img draggable="false" src={InstitutePic} alt=""/>
                 </div>
                 <div class="content">
                 <h3>BIG DATA & ANALYTICS</h3>
@@ -20,12 +22,12 @@ function Education() {
 
             <div class="box">
                 <div class="image">
-                <img draggable="false" src="./assets/images/educat/college.jpg" alt=""/>
+                <img draggable="false" src={CollegePic} alt=""/>
                 </div>
                 <div class="content">
-                <h3>Bachelor of Engineering in Mechatronics</h3>
+                <h3>Mechatronics Engineering</h3>
                 <p>Department of Mechanical Engineering | National University of Engineering</p>
-                <h4>2016-2021 | Graduated</h4>
+                <h4>2016-2021 | Bachelor</h4>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ build/
 dist/
 dist-ssr/
 out/
-
+.firebase/
 # Logs
 logs
 *.log

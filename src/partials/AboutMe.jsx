@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ProfilePic2 from '../images/profile2.png';
 
 function AboutMe() {
   return (
@@ -9,7 +10,7 @@ function AboutMe() {
     <div class="row">
 
     <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt=""/>
+        <img draggable="false" class="tilt" src={ProfilePic2} alt=""/>
     </div>
     <div class="content">
         <h3>I'm Isaac Alexis Rivera</h3>

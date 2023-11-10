@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
+import IntoSkills from '../components/IntoSkills';
+
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -10,7 +12,7 @@ function HeroHome() {
 
       <div class="content">
         <h2>Hi There,<br /> I'm Isaac <span>Rivera</span></h2>
-        <p>i am into <span class="typing-text"></span></p>
+        <p>i am into <IntoSkills /> </p>
         <a href="#about" class="btn"><span>About Me</span>
           <i class="fas fa-arrow-circle-down"></i>
         </a>

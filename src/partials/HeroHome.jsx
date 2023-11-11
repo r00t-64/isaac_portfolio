@@ -4,6 +4,7 @@ import Modal from '../utils/Modal';
 import IntoSkillsComponent from '../components/IntoSkillsComponent';
 import ParticlesComponent from '../components/ParticlesComponent';
 
+import HeroPic from '../images/hero.png';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -29,7 +30,7 @@ function HeroHome() {
         </div>
       </div>
       <div class="image">
-        <img draggable="false" class="tilt" src="./src/images/hero.png" alt="" />
+        <img draggable="false" class="tilt" src={HeroPic} alt="" />
       </div>
     </section>
 

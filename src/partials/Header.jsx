@@ -31,7 +31,7 @@ function Header() {
 
   return (
     <header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Isaac</a>
+        <a href="/" class="logo"><i class="fab fa-python"></i> Isaac</a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">

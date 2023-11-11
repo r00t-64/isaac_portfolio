@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
-import IntoSkills from '../components/IntoSkills';
+import IntoSkillsComponent from '../components/IntoSkillsComponent';
+import ParticlesComponent from '../components/ParticlesComponent';
 
 
 function HeroHome() {
@@ -9,10 +10,10 @@ function HeroHome() {
 
   return (
     <section class="home" id="home">
-
+      <ParticlesComponent />
       <div class="content">
         <h2>Hi There,<br /> I'm Isaac <span>Rivera</span></h2>
-        <p>i am into <IntoSkills /> </p>
+        <p>i am into <IntoSkillsComponent /> </p>
         <a href="#about" class="btn"><span>About Me</span>
           <i class="fas fa-arrow-circle-down"></i>
         </a>

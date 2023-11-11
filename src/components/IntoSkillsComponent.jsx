@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
 
-const IntoSkills = () => {
+const IntoSkillsComponent = () => {
   useEffect(() => {
     const options = {
       strings: ["Data Analytics", "Machine Learning", "Business Analytics", "ML Ops", "Backend Development","Data Analytics"],
@@ -20,4 +20,4 @@ const IntoSkills = () => {
   return <span className="typing-text"></span>;
 };
 
-export default IntoSkills;
+export default IntoSkillsComponent;

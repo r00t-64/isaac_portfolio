@@ -9,7 +9,7 @@ import Education from '../partials/Education';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">sdsds
+    <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
       <Header />
 

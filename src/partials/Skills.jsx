@@ -1,17 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SkillsComponent from '../components/SkillsComponent';
 
 function Skills() {
   return (
-    <section class="skills" id="skills">
-
-    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
-
-    <div class="container">
-          <div class="row" id="skillsContainer">
-
-      </div>
-    </div>
+    <section className="skills" id="skills">
+        <h2 className="heading">
+          <i className="fas fa-laptop-code"></i> Skills & <span>Abilities</span>
+        </h2>
+        <div className="container">
+          <div className="row" id="skillsContainer">
+            {/* Insert the SkillsComponent here */}
+            <SkillsComponent />
+          </div>
+        </div>
     </section>
   );
 }

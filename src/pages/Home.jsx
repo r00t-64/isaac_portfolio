@@ -6,6 +6,7 @@ import Footer from '../partials/Footer';
 import AboutMe from '../partials/AboutMe';
 import Skills from '../partials/Skills';
 import Education from '../partials/Education';
+import Contact from '../partials/Contact';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         <AboutMe />
         <Skills />
         <Education/>
+        <Contact />
       </main>
 
       {/*  Site footer */}

@@ -37,18 +37,18 @@ const ParticlesComponent = () => {
         },
       },
       size: {
-        value: 3,
+        value: 5,
         random: true,
         anim: {
           enable: false,
-          speed: 20,
+          speed: 10,
           size_min: 0.1,
           sync: false,
         },
       },
       line_linked: {
         enable: true,
-        distance: 200,
+        distance: 150,
         color: '#808080',
         opacity: 0.4,
         width: 1,
@@ -93,11 +93,10 @@ const ParticlesComponent = () => {
           size: 40,
           duration: 2,
           opacity: 8,
-          speed: 2,
+          speed: 1,
         },
         repulse: {
           distance: 200,
-          duration: 0.4,
         },
         push: {
           particles_nb: 4,
@@ -108,15 +107,16 @@ const ParticlesComponent = () => {
       },
     },
     retina_detect: true,
+    fullScreen: {
+      enable: false, // Set fullScreen to false
+    },
   };
   return (
-    <div id="particles-js">
       <Particles
-        id="tsparticles"
+        id="particles-js"
         options={options}
         init={particles => loadFull(particles)}
       />
-    </div>
   );
 };
 

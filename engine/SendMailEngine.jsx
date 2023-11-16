@@ -19,7 +19,7 @@ const sendEmailEngine = (formData) => {
     message: formData.message,
   };
 
-  return fetch('http://158.101.112.4:3325/send-email', {
+  return fetch('https://perfect-buckle-lion.cyclic.app/send-email', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

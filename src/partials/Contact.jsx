@@ -23,15 +23,7 @@ function Contact() {
     e.preventDefault();
     // Call the sendEmailEngine function with the form data
     sendEmailEngine(formData);
-    // If the email is sent successfully, clear the form data
-    if (success) {
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-      });
-    }
+    
   };
 
   return (
@@ -91,7 +83,7 @@ function Contact() {
               </div>
             </div>
             <div className="button-area">
-              <button type="submit">
+              <button type="submit" onClick={handleSubmit}>
                 Submit <i className="fa fa-paper-plane"></i>
               </button>
             </div>

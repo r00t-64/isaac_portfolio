@@ -9,10 +9,8 @@ function Skills() {
           <i className="fas fa-laptop-code"></i> Skills & <span>Abilities</span>
         </h2>
         <div className="container">
-          <div className="row" id="skillsContainer">
             {/* Insert the SkillsComponent here */}
-            <SkillsComponent />
-          </div>
+          <SkillsComponent />
         </div>
     </section>
   );

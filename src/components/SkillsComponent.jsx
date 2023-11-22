@@ -1,35 +1,68 @@
 import React, { useState, useEffect } from 'react';
+import SkillsCollection from '../database/skillsCollection.json';
 
 const SkillsComponent = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
     // Mock data directly in the component
+    
     const skillsData = [
-      { name: 'ReactJS', icon: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' },
-      { name: 'ExpressJS', icon: 'https://img.icons8.com/fluency/48/000000/node-js.png' },
-      // Add more skills as needed
+      {
+        key: "analytics",
+        category: "Machine Learning",
+        subcategories: ["TensorFlow","Scikit-Learn", "NumPy", "Hadoop", "Spark"]
+      },
+      { 
+        key: "software",
+        category: "Software Development",
+        subcategories: [  "ReactJS", "ExpressJS", "Firebase", "Python","GitHub"]
+      },
+      { 
+        key: "cloud_computing",
+        category: "Networking and Cloud Computing",
+        subcategories: [ "DigitalOcean", "AWS"]
+      },
+      { 
+        key: "db_management",
+        category: "Database Management",
+        subcategories: [ "PostgreSQL", "MySQL" ]
+      }
     ];
 
     setSkills(skillsData);
   }, []);
 
   const showSkills = () => {
-    return skills.map((skill, index) => (
-      <div key={index} className="bar">
-        <div className="info">
-          <img src={skill.icon} alt="skill" />
-          <span>{skill.name}</span>
+    return skills.map((category, index) => (
+      <div key={index}>
+        <h2>{category.category}</h2>
+        <div className="row" id={`skillsContainer_${category.key}`}>
+          {category.subcategories.map((subCategory, subIndex) => {
+            // Find the corresponding entry in SkillsCollection
+            const subSkill = SkillsCollection.find((skill) => skill.name === subCategory);
+  
+            // Render the skill entry
+            return (
+              <div key={subIndex} className="bar">
+                <div className="info">
+                  {subSkill && (
+                    <>
+                      <img src={subSkill.icon} alt="skill" />
+                      <span>{subSkill.name}</span>
+                    </>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     ));
   };
 
   return (
-    <div>
-      <h2>Skills</h2>
-      <div id="skillsContainer">{showSkills()}</div>
-    </div>
+    <div>{showSkills()}</div>
   );
 };
 

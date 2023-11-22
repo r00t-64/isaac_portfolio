@@ -1,0 +1,230 @@
+[
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "Redux",
+        "icon": "https://img.icons8.com/color/48/000000/redux.png"
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+    },
+    {
+        "name": "Android",
+        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+    },
+    {
+        "name": "MaterialUI",
+        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+    },
+    {
+        "name": "ChakraUI",
+        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
+    },
+    {
+        "name": "TailwindCSS",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "Sass",
+        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "Kotlin",
+        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+        "name": "C++",
+        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Heroku",
+        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
+    },
+    {
+        "name": "Netlify",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    },
+    {
+        "name": "DigitalOcean",
+        "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
+    },
+    {
+        "name": "jQuery",
+        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },
+    {
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "https://img.icons8.com/color/48/000000/pytorch.png"
+      },
+      {
+        "name": "Scikit-Learn",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+      },
+      {
+        "name": "Keras",
+        "icon": "https://img.icons8.com/ios/48/000000/keras.png"
+      },
+      {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
+      },
+      {
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
+      },
+      {
+        "name": "Matplotlib",
+        "icon": "https://img.icons8.com/color/48/000000/matplotlib.png"
+      },
+      {
+        "name": "Seaborn",
+        "icon": "https://img.icons8.com/color/48/000000/seaborn.png"
+      },
+      {
+        "name": "SciPy",
+        "icon": "https://img.icons8.com/color/48/000000/scipy.png"
+      },
+      {
+        "name": "Jupyter",
+        "icon": "https://img.icons8.com/color/48/000000/jupyter.png"
+      },
+      {
+        "name": "Tableau",
+        "icon": "https://img.icons8.com/color/48/000000/tableau-software.png"
+      },
+      {
+        "name": "R Programming",
+        "icon": "https://img.icons8.com/color/48/000000/r.png"
+      },
+      {
+        "name": "Hadoop",
+        "icon": "https://img.icons8.com/color/48/000000/hadoop-distributed-file-system.png"
+      },
+      {
+        "name": "Spark",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Spark-logo-192x100px.png"
+      },
+      {
+        "name": "BigML",
+        "icon": "https://img.icons8.com/color/48/000000/machine-learning.png"
+      },
+      {
+        "name": "RapidMiner",
+        "icon": "https://img.icons8.com/color/48/000000/rapidminer.png"
+      },
+      {
+        "name": "DataRobot",
+        "icon": "https://img.icons8.com/color/48/000000/robot.png"
+      },
+      {
+        "name": "KNIME",
+        "icon": "https://img.icons8.com/color/48/000000/knime.png"
+      },
+      {
+        "name": "AutoML",
+        "icon": "https://img.icons8.com/color/48/000000/auto-machine-learning.png"
+      },
+      {
+        "name": "MLflow",
+        "icon": "https://img.icons8.com/color/48/000000/m-flow.png"
+      },
+      {
+        "name": "Caffe",
+        "icon": "https://img.icons8.com/color/48/000000/caffe.png"
+      },
+      {
+        "name": "Theano",
+        "icon": "https://img.icons8.com/color/48/000000/theano.png"
+      },
+      {
+        "name": "MXNet",
+        "icon": "https://img.icons8.com/color/48/000000/mxnet.png"
+      },
+      {
+        "name": "CatBoost",
+        "icon": "https://img.icons8.com/color/48/000000/cat.png"
+      },
+      {
+        "name": "XGBoost",
+        "icon": "https://img.icons8.com/plasticine/48/000000/checked-checkbox.png"
+      },
+      {
+        "name": "LightGBM",
+        "icon": "https://img.icons8.com/color/48/000000/light.png"
+      },
+      {
+        "name": "Prophet",
+        "icon": "https://img.icons8.com/color/48/000000/nostradamus.png"
+      }    
+]

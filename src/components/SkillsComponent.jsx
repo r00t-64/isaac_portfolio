@@ -21,7 +21,7 @@ const SkillsComponent = () => {
       { 
         key: "cloud_computing",
         category: "Networking and Cloud Computing",
-        subcategories: [ "DigitalOcean", "AWS"]
+        subcategories: ["Azure", "DigitalOcean"]
       },
       { 
         key: "db_management",

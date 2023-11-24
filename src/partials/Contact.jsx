@@ -23,6 +23,13 @@ function Contact() {
     e.preventDefault();
     // Call the sendEmailEngine function with the form data
     sendEmailEngine(formData);
+    // Clear the form data after sending
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+    });
     
   };
 
@@ -37,7 +44,7 @@ function Contact() {
           <div className="image-box">
             <img draggable="false" src={ContactPic} alt="" />
           </div>
-          <form id="contact-form" onSubmit={handleSubmit}>
+          <form id="contact-form">
             <div className="form-group">
               <div className="field">
                 <input

@@ -10,8 +10,8 @@ const sendEmailEngine = (formData) => {
   `;
 
   const requestData = {
-    to: 'ariveras5656@gmail.com',
-    subject: 'Test Subject',
+    to: 'ariveras@uni.pe',
+    subject: 'Someone hit your Web!',
     text: formDataString,
     name: formData.name,
     email: formData.email,

@@ -14,14 +14,13 @@ function AboutMe() {
     </div>
     <div class="content">
         <h3>I'm Isaac Alexis Rivera</h3>  
-        <span class="tag">Data Analyst | ML Engineer</span>
+        <span class="tag">Man On Many Missions</span>
         
-        <p>I am a Machine Learning Engineer based in Lima, Peru.<br/>
-        A dedicated and enthusiastic professional with a commitment to excellence and a passion for continuous learning and
-        development. My strong background in IT relies on providing reliable Data Analytics services, with a focus on areas such as
-        data exploring and predictive modeling. I am eager to contribute to a company's success by ensuring effective data utilization.
-        I am enthusiastic about exploring new opportunities that allow me to further develop my skills in Data Analytics and Data
-        Science as I continue to grow in my career</p>
+        <p>Machine Learning Engineer based in Lima, Peru.<br/><br/>
+        Dedicated professional with a strong commitment to excellence and a passion for continuous learning. my wide IT expertise
+        focuses on providing reliable data analytics services, with special emphasis on areas such as data exploration and predictive
+        modeling. I am excited to contribute to the progress of your company, ensuring the effective use of data. I look forward to
+        exploring new opportunities that allow me to further develop my skills in Data analysis and data science.</p>
                 
         <div class="box-container">
             <div class="box">

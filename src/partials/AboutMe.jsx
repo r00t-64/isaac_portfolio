@@ -16,7 +16,7 @@ function AboutMe() {
         <h3>I'm Isaac Alexis Rivera</h3>  
         <span class="tag">Man On Many Missions</span>
         
-        <p>Machine Learning Engineer based in Lima, Peru.<br/><br/>
+        <p>Machine Learning Engineer<br/><br/>
         Dedicated professional with a strong commitment to excellence and a passion for continuous learning. my wide IT expertise
         focuses on providing reliable data analytics services, with special emphasis on areas such as data exploration and predictive
         modeling. I am excited to contribute to the progress of your company, ensuring the effective use of data. I look forward to

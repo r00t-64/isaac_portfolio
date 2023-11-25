@@ -7,6 +7,7 @@ import AboutMe from '../partials/AboutMe';
 import Skills from '../partials/Skills';
 import Education from '../partials/Education';
 import Contact from '../partials/Contact';
+import Projects from '../partials/Projects';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         <HeroHome />
         <AboutMe />
         <Skills />
+        <Projects />
         <Education/>
         <Contact />
       </main>

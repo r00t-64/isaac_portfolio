@@ -6,7 +6,7 @@ function Skills() {
   return (
     <section className="skills" id="skills">
         <h2 className="heading">
-          <i className="fas fa-laptop-code"></i> Skills & <span>Abilities</span>
+          <i className="fas fa-laptop-code"></i> Tech <span>Stack</span>
         </h2>
         <div className="container">
             {/* Insert the SkillsComponent here */}

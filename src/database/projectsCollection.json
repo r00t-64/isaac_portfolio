@@ -1,13 +1,13 @@
 [
   {
     "name": "Hand Written Digit Recognition",
-    "desc": "",
+    "desc": "A technology that involves the identification and classification of digits or characters written by hand. ",
     "image": "notystackandroid",
     "category": "machinelearning",
     "links": {
       "view": "",
       "code": "",
-      "image": ""
+      "image": "https://www.researchgate.net/profile/Hugo-Larochelle/publication/200744481/figure/fig1/AS:668968306098181@1536505881710/Samples-from-the-MNIST-digit-recognition-data-set-Here-a-black-pixel-corresponds-to-an.png"
     }
   }
 ]

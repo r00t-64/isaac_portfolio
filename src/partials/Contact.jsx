@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ContactPic from '../images/contact1.png';
-import sendEmailEngine from '../../engine/SendMailEngine';
+import sendMailApiEngine from '../../engine/SendMailApiEngine';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -21,8 +21,8 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call the sendEmailEngine function with the form data
-    sendEmailEngine(formData);
+    // Call the sendMailApiEngine function with the form data
+    sendMailApiEngine(formData);
     // Clear the form data after sending
     setFormData({
       name: '',

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const sendEmailEngine = (formData) => {
+const sendMailApiEngine = (formData) => {
   // Convert form data into a string
   const formDataString = `
     Name: ${formData.name}
@@ -37,4 +37,4 @@ const sendEmailEngine = (formData) => {
     });
 };
 
-export default sendEmailEngine;
+export default sendMailApiEngine;

@@ -9,6 +9,8 @@ dist/
 dist-ssr/
 out/
 .firebase/
+.firebaserc
+firebase.json
 # Logs
 logs
 *.log

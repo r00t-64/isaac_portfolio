@@ -406,6 +406,76 @@ header .navbar ul li a:hover {
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
+
+/* project section starts */
+.project {
+  background: rgb(255, 255, 255);
+}
+.project .row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4rem; 
+  padding-right: 4rem; 
+}
+.project .row .image {
+  text-align: center;
+  flex: 1 1 35rem;
+}
+
+.project .row .qoute {
+  text-align: center;
+  flex: 1 1 35rem;
+}
+
+.project .row .image img {
+  margin: 1rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 5%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project .row .content {
+  flex: 1 1 45rem;
+  padding: 3rem;
+}
+.project .row .content h3 {
+  color: rgb(27, 27, 27);
+  font-size: 2.5rem;
+}
+.project .row .content .tag {
+  font-size: 1.4rem;
+  color: #020133;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.project .row .content p {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none;
+}
+.project .row .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.project .row .content .box-container .box p {
+  text-transform: none;
+}
+.project .row .content .box-container .box p span {
+  color: #011aff;
+}
+
+/* resume section starts */
 .resumebtn {
   margin-top: 6rem;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import HeroHome from '../partials/HeroHome';
+import Blog from '../partials/Blog';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -14,21 +14,15 @@ function Home() {
       <main className="grow">
         {/*  Page illustration */}
         <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
-          <PageIllustration />
         </div>
 
         {/*  Page sections */}
-        <HeroHome />
-        <FeaturesBlocks />
-        <FeaturesZigZag />
-        <Testimonials />
-        <Newsletter />
+        <Blog />
       </main>
-
-      <Banner />
 
       {/*  Site footer */}
       <Footer />
+      
     </div>
   );
 }

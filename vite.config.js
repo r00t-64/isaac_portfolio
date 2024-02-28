@@ -10,6 +10,7 @@ export default defineConfig({
   css: {
     postcss,
   },
+  assetsInclude: ['**/*.md'],
   plugins: [react()],
   resolve: {
     alias: [

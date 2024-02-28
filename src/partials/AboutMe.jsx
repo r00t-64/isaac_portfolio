@@ -17,10 +17,11 @@ function AboutMe() {
         <span class="tag">Man On Many Missions</span>
         
         <p>Machine Learning Engineer<br/><br/>
-        Dedicated professional with a strong commitment to excellence and a passion for continuous learning. my wide IT expertise
-        focuses on providing reliable data analytics services, with special emphasis on areas such as data exploration and predictive
-        modeling. I am excited to contribute to the progress of your company, ensuring the effective use of data. I look forward to
-        exploring new opportunities that allow me to further develop my skills in Data analysis and data science.</p>
+        Professional specialized in data analysis, big data management and data modeling, 
+        my experience in the technology sector focuses on the development of architectures in Azure, the implementation of ETL processes, 
+        data mining and the generation of high-value indicators . (KPIs). 
+        I am committed to continuous improvement and stay up to date with market trends in Data Analytics and Data Science, 
+        constantly seeking to update my skills and knowledge to stay abreast of the latest technological innovations.</p>
                 
         <div class="box-container">
             <div class="box">

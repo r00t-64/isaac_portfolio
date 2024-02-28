@@ -1,0 +1,70 @@
+[
+    {
+      "title": "Primer Blog",
+      "id": "0001",
+      "url": "hand-written-digit-recognition",
+      "author": "Isaac Alexis Rivera",
+      "email": "ariveras@uni.pe",
+      "place": "Lima, Peru",
+      "date": "2024-02-20",
+      "blocks": [
+        {
+          "type": "text",
+          "text-align": "",
+          "title": "Introduccion",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "type": "text",
+          "text-align": "",
+          "title": "",
+          "content": "Este es el primer bloque de texto de la publicación del blog. También puede contener contenido de texto."
+        },
+        {
+            "type": "image",
+            "text-align": "",
+            "title": "Parte 2",
+            "url": "https://picsum.photos/536/354",
+            "caption": "Esta es la descripcion para la imagen."
+        },
+        {
+            "type": "text",
+            "text-align": "",
+            "title": "Parte 3",
+            "content": "Este es el segundo bloque de texto de la publicación del blog. También puede contener contenido de texto."
+        }
+      ]
+    },
+    {
+      "title": "Sample Blog Post 2",
+      "id": "0002",
+      "url": "blog-de-prueba-2",
+      "author": "Isaac Rivera",
+      "email": "ariveras@uni.pe",
+      "place": "Lima, Peru",
+      "date": "2024-02-22",
+      "blocks": [
+        {
+            "type": "text",
+            "text-align": "",
+            "title": "Parte 1",
+            "content": "Este es el primer bloque de texto de la publicación del blog. También puede contener contenido de texto."
+        },
+        {
+            "type": "image",
+            "text-align": "",
+            "title": "Parte 2",
+            "url": "https://isaac-alexis44.web.app/assets/institute-56432c3c.jpg",
+            "caption": "Esta es la descripcion para la imagen."
+        },
+        {
+            "type": "text",
+            "text-align": "",
+            "title": "Parte 3",
+            "content": "Este es el segundo bloque de texto de la publicación del blog. También puede contener contenido de texto."
+        }
+      ]
+    }
+      
+]
+  

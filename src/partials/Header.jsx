@@ -1,8 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
+  const location = useLocation();
+  const { pathname } = location;
 
+  // Function to determine if the current page is the main page
+  const isMainPage = pathname === '/';
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   const trigger = useRef(null);
@@ -31,21 +35,33 @@ function Header() {
 
   return (
     <header>
-        <a href="/" class="logo"><i class="fab fa-python"></i> Isaac</a>
+        <a href="/" className="logo"><i className="fab fa-python"></i> Isaac</a>
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
+        <div id="menu" className="fas fa-bars"></div>
+        <nav className="navbar">
             <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
+              {isMainPage && (
+                <>
+                  <li><a className="active" href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="/projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </>
+              )}
+              {!isMainPage && (
+                <>
+                  <li><Link to="/">Home</Link></li>
+                  <li><Link to="/#about">About</Link></li>
+                  <li><Link to="/#contact">Contact</Link></li>
+                  {/* Add other relevant links for non-main pages */}
+                </>
+              )}
             </ul>
         </nav>
-    </header>
+    </header> 
   );
 }
 

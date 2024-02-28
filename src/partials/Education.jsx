@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import EducationComponent from '../components/EducationComponent';
-import CollegePic from '../images/educat/college.jpg';
-import InstitutePic from '../images/educat/institute.jpg';
 
 function Education() {
   return (

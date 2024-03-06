@@ -4,17 +4,17 @@ import {
 } from 'react-router-dom';
 import Header from '../partials/Header';
 import Footer from '../partials/Footer';
-import Blog from '../partials/Blog';
+import Article from '../partials/Article';
 
-function BlogPage() {
+function ArticlePage() {
     let { url } = useParams(); 
     return (
         <section>
             <Header />
-            <Blog url={url} />
+            <Article url={url} />
             <Footer />
         </section>
     );
   }
 
-export default BlogPage;
+export default ArticlePage;

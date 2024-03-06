@@ -13,7 +13,7 @@ import AOS from 'aos';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
-import BlogPage from './pages/BlogPage';
+import ArticlePage from './pages/ArticlePage';
 
 function App() {
 
@@ -40,7 +40,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:url" element={<BlogPage />} />
+        <Route path="/projects/:url" element={<ArticlePage />} />
       </Routes>
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import Blog from '../partials/Blog';
+import Article from '../partials/Article';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
         </div>
 
         {/*  Page sections */}
-        <Blog />
+        <Article />
       </main>
 
       {/*  Site footer */}

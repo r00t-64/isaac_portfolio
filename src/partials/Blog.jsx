@@ -74,11 +74,7 @@ function Blog({url}) {
                         </div>
                     </div>
 
-                    <div class="resumebtn">
-                        <a href="https://drive.google.com/file/d/13JBl2VqBc5mAkD-nIrBhvt7TecjoWrgT/view" target="_blank" class="btn"><span>Resume</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    </div>
+                    
                 </div>
               </div>
             </div>

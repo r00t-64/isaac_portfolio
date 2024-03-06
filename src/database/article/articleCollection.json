@@ -21,6 +21,13 @@
           "content": "Este es el primer bloque de texto de la publicación del blog. También puede contener contenido de texto."
         },
         {
+          "type": "code",
+          "text-align": "",
+          "language": "bash",
+          "title": "",
+          "content": "#!/bin/bash\n\n# Example Bash script\necho \"Hello, world!\""
+        },
+        {
             "type": "image",
             "text-align": "",
             "title": "Parte 2",

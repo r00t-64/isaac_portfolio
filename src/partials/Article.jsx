@@ -1,4 +1,6 @@
 import React from 'react';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import ArticleCollection from '../database/article/articleCollection.json'
 
 
@@ -43,7 +45,18 @@ function Article({url}) {
           <p className="qoute">{block.caption}</p>
         </p>
       );
-    } else {
+    } else if (block.type === 'code') {
+      return (
+        <p key={block.title}>
+          <h3>{block.title}</h3>
+          <div className="cell">
+            <SyntaxHighlighter language={block.language} style={prism}>
+              {block.content}
+            </SyntaxHighlighter>
+          </div>
+      </p>
+      );
+    }  else {
       return null;
     }
   }

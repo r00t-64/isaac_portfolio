@@ -17,11 +17,7 @@ function AboutMe() {
         <span class="tag">Man On Many Missions</span>
         
         <p>Machine Learning Engineer<br/><br/>
-        Professional specialized in data analysis, big data management and data modeling, 
-        my experience in the technology sector focuses on the development of architectures in Azure, the implementation of ETL processes, 
-        data mining and the generation of high-value indicators . (KPIs). 
-        I am committed to continuous improvement and stay up to date with market trends in Data Analytics and Data Science, 
-        constantly seeking to update my skills and knowledge to stay abreast of the latest technological innovations.</p>
+        Professional specialized in data analysis, big data management, and data modeling. With 2 years of experience in the technology sector, I have focused on developing architectures in Azure, implementing ETL processes, data mining, and generating high-value indicators (KPIs). My technical stack includes Spark, Python, database management systems, Azure services, and both cloud and on-premise architectures. My aspiration is to apply my skills in the Financial Sector, where I can continue to develop and contribute value.</p>
                 
         <div class="box-container">
             <div class="box">

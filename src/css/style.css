@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 0.2s linear;
 }
 html {
@@ -438,6 +438,13 @@ header .navbar ul li a:hover {
   border-radius: 5%;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.cell {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  text-transform: none;
 }
 
 .project .row .content {

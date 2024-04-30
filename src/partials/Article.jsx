@@ -2,9 +2,11 @@ import React from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import ArticleCollection from '../database/article/articleCollection.json'
+import { FaCopy } from 'react-icons/fa';
 
 
 function Article({url}) {
+  
   const getArticleContent = (url) =>{
     const articlePost = ArticleCollection.find(post => post.url === url);
 
@@ -28,6 +30,10 @@ function Article({url}) {
   const articleContent = getArticleContent(url)
 
   function renderBlock(block) {
+    const copyToClipboard = () => {
+      navigator.clipboard.writeText(block.content);  // Copy the code content to the clipboard
+    };
+    
     if (block.type === 'text') {
       return (
         <p key={block.title}>
@@ -48,11 +54,21 @@ function Article({url}) {
     } else if (block.type === 'code') {
       return (
           <div key={block.title} className="mb-4">  
-            <h3 className="text-lg font-semibold">{block.title}</h3> 
+            <h3 className="text-rg font-semibold">{block.title}</h3>
+            
             <div className="cell" >  
               <SyntaxHighlighter language={block.language} style={prism}>
                 {block.content}
               </SyntaxHighlighter>
+            </div>
+            <div className="flex justify-right items-center mb-2">
+                <button 
+                  onClick={copyToClipboard}  // Handler to copy the text to the clipboard
+                  className="text-sm text-gray-600 hover:text-black"  // Tailwind styling for the button
+                  title="Copy to Clipboard"
+                >
+                <FaCopy />  {/* Copy icon */}
+                </button> 
             </div>
           </div>
       );

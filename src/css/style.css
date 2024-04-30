@@ -433,7 +433,7 @@ header .navbar ul li a:hover {
 
 .project .row .image img {
   margin: 1rem;
-  width: 30rem;
+  width: 50rem;
   height: auto;
   border-radius: 5%;
   transition: 0.3s;

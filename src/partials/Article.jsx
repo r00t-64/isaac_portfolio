@@ -37,24 +37,24 @@ function Article({url}) {
       );
     } else if (block.type === 'image') {
       return (
-        <div key={block.title}  className="mb-4">
+        <p key={block.title}  className="mb-4">
           <h3>{block.title}</h3>
           <div className="image w-full">
             <img draggable="false" className="tilt" src={block.url} alt="" />
           </div>
           <p className="qoute">{block.caption}</p>
-        </div>
+        </p>
       );
     } else if (block.type === 'code') {
       return (
-        <p key={block.title}>
-          <h3>{block.title}</h3>
-          <div className="cell">
-            <SyntaxHighlighter language={block.language} style={prism}>
-              {block.content}
-            </SyntaxHighlighter>
+          <div key={block.title} className="mb-4">  
+            <h3 className="text-lg font-semibold">{block.title}</h3> 
+            <div className="cell" >  
+              <SyntaxHighlighter language={block.language} style={prism}>
+                {block.content}
+              </SyntaxHighlighter>
+            </div>
           </div>
-      </p>
       );
     }  else {
       return null;
@@ -82,8 +82,8 @@ function Article({url}) {
 
                     <div class="box-container">
                         <div class="box">
-                            <p><span> email : </span> {articleContent.email} </p>
-                            <p><span> place : </span> {articleContent.place} </p>
+                            <p><span> Email : </span> {articleContent.email} </p>
+                            <p><span> Place : </span> {articleContent.place} </p>
                         </div>
                     </div>
 

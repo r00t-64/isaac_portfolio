@@ -14,7 +14,7 @@ function HeroHome() {
       <ParticlesComponent />
       <div class="content">
         <h2>Hi There,<br /> I'm Isaac <span>Rivera</span></h2>
-        <p>i am into <IntoSkillsComponent /> </p>
+        <p>I Am Into <IntoSkillsComponent /> </p>
         <a href="#about" class="btn"><span>About Me</span>
           <i class="fas fa-arrow-circle-down"></i>
         </a>

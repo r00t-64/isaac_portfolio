@@ -80,7 +80,7 @@
         {
             "type": "text",
             "text-align": "",
-            "title": "",
+            "title": "Intro",
             "content": "To install and set up an Apache Spark cluster using Docker, you need Docker installed on your machine. Below is a command to run an Ubuntu container with specific resource limits, along with an explanation of the command-line flags."
         },
         {
@@ -91,10 +91,11 @@
             "caption": "Img 1. Docker architecture"
         },
         {
-            "type": "text",
-            "text-align": "",
-            "title": "Parte 3",
-            "content": "Este es el segundo bloque de texto de la publicación del blog. También puede contener contenido de texto."
+          "type": "code",
+          "text-align": "",
+          "language": "bash",
+          "title": "Install",
+          "content": "docker run -it --rm --memory 2Gb --cpus 1 ubuntu"
         }
       ]
     }

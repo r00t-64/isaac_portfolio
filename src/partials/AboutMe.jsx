@@ -16,7 +16,7 @@ function AboutMe() {
         <h3>I'm Isaac Alexis Rivera</h3>  
         <span class="tag">Man On Many Missions</span>
         
-        <p>Machine Learning Engineer<br/><br/>
+        <p> Data Engineer | Data Science | Microsoft Azure <br/><br/>
         Professional specialized in data analysis, big data management, and data modeling. With 2 years of experience in the technology sector, I have focused on developing architectures in Azure, implementing ETL processes, data mining, and generating high-value indicators (KPIs). My technical stack includes Spark, Python, database management systems, Azure services, and both cloud and on-premise architectures. My aspiration is to apply my skills in the Financial Sector, where I can continue to develop and contribute value.</p>
                 
         <div class="box-container">

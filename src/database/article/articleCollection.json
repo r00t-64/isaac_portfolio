@@ -1,6 +1,36 @@
 [
-    {
-      "title": "Primer Blog",
+  {
+    "title": "Sample Blog Post 2",
+    "id": "0000",
+    "url": "blog-de-prueba-2",
+    "author": "Isaac Rivera",
+    "email": "ariveras@uni.pe",
+    "place": "Lima, Peru",
+    "date": "2024-02-22",
+    "blocks": [
+      {
+          "type": "text",
+          "text-align": "",
+          "title": "Parte 1",
+          "content": "Este es el primer bloque de texto de la publicación del blog. También puede contener contenido de texto."
+      },
+      {
+          "type": "image",
+          "text-align": "",
+          "title": "Parte 2",
+          "url": "https://isaac-alexis44.web.app/assets/institute-56432c3c.jpg",
+          "caption": "Esta es la descripcion para la imagen."
+      },
+      {
+          "type": "text",
+          "text-align": "",
+          "title": "Parte 3",
+          "content": "Este es el segundo bloque de texto de la publicación del blog. También puede contener contenido de texto."
+      }
+    ]
+  },
+  {
+      "title": "Hand Written Digit Recognition",
       "id": "0001",
       "url": "hand-written-digit-recognition",
       "author": "Isaac Alexis Rivera",
@@ -11,14 +41,15 @@
         {
           "type": "text",
           "text-align": "",
-          "title": "Introduccion",
-          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "title": "Intro",
+          "content": "Digit recognition stands out as one of the most invaluable tools in our daily lives, seamlessly integrated into various applications. From handwritten digit recognition on postal envelopes to automatic text recognition in scanned documents, its applications are diverse and impactful. In this project, I leveraged the power of digital recognition to tackle the MNIST dataset, a benchmark dataset readily available in the sklearn library. Using a Convolutional Neural Network (CNN) architecture comprising four layers, I delved into the world of image recognition."
         },
         {
-          "type": "text",
+          "type": "image",
           "text-align": "",
           "title": "",
-          "content": "Este es el primer bloque de texto de la publicación del blog. También puede contener contenido de texto."
+          "url": "https://mobisoftinfotech.com/resources/wp-content/uploads/2022/02/Number-Plate-Detection.png",
+          "caption": "Number Plate Detection Mechanism using Computer Vision"
         },
         {
           "type": "code",
@@ -27,13 +58,7 @@
           "title": "",
           "content": "#!/bin/bash\n\n# Example Bash script\necho \"Hello, world!\""
         },
-        {
-            "type": "image",
-            "text-align": "",
-            "title": "Parte 2",
-            "url": "https://picsum.photos/536/354",
-            "caption": "Esta es la descripcion para la imagen."
-        },
+       
         {
             "type": "text",
             "text-align": "",
@@ -41,11 +66,12 @@
             "content": "Este es el segundo bloque de texto de la publicación del blog. También puede contener contenido de texto."
         }
       ]
-    },
+  },
+
     {
-      "title": "Sample Blog Post 2",
+      "title": "Apache Spark Cluster Install",
       "id": "0002",
-      "url": "blog-de-prueba-2",
+      "url": "apache-spark-cluster-install",
       "author": "Isaac Rivera",
       "email": "ariveras@uni.pe",
       "place": "Lima, Peru",
@@ -54,15 +80,15 @@
         {
             "type": "text",
             "text-align": "",
-            "title": "Parte 1",
-            "content": "Este es el primer bloque de texto de la publicación del blog. También puede contener contenido de texto."
+            "title": "",
+            "content": "To install and set up an Apache Spark cluster using Docker, you need Docker installed on your machine. Below is a command to run an Ubuntu container with specific resource limits, along with an explanation of the command-line flags."
         },
         {
             "type": "image",
             "text-align": "",
-            "title": "Parte 2",
-            "url": "https://isaac-alexis44.web.app/assets/institute-56432c3c.jpg",
-            "caption": "Esta es la descripcion para la imagen."
+            "title": "",
+            "url": "https://imgur.com/9nE9vjV.png",
+            "caption": "Img 1. Docker architecture"
         },
         {
             "type": "text",

@@ -37,13 +37,13 @@ function Article({url}) {
       );
     } else if (block.type === 'image') {
       return (
-        <p key={block.title}>
+        <div key={block.title}  className="mb-4">
           <h3>{block.title}</h3>
-          <div className="image">
+          <div className="image w-full">
             <img draggable="false" className="tilt" src={block.url} alt="" />
           </div>
           <p className="qoute">{block.caption}</p>
-        </p>
+        </div>
       );
     } else if (block.type === 'code') {
       return (

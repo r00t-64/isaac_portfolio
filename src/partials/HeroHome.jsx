@@ -4,7 +4,7 @@ import Modal from '../utils/Modal';
 import IntoSkillsComponent from '../components/IntoSkillsComponent';
 import ParticlesComponent from '../components/ParticlesComponent';
 
-import HeroPic from '../images/hero.png';
+import HeroPic from '../images/hero3.png';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);

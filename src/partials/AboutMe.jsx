@@ -17,7 +17,7 @@ function AboutMe() {
         <span class="tag">Man On Many Missions</span>
         
         <p> Credit Risk | Data Science | Azure <br/><br/>
-        Professional commited to data science and data engineering, with 2 years of experience in the technology sector. I have worked on generating key performance indicators (KPIs) and developing architectures both in the cloud and on-premise. My technical stack includes Spark, Python, SQL, and Azure services. Currently, I am working in the Credit Risk area, focusing on financial risk management. My goal is to apply and expand my skills within the Financial Sector.
+        Professional commited to data science and data engineering, with 3 years of experience on Information technology sector. I have worked on generating key performance indicators (KPIs) and developing architectures both in the cloud and on-premise. My technical stack includes Spark, Python, SQL, and Azure services. Currently, I am working in the Credit Risk area, focusing on financial risk management. My goal is to apply and expand my skills within the Financial Sector.
         </p>
                 
         <div class="box-container">

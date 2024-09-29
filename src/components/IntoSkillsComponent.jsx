@@ -4,7 +4,7 @@ import Typed from 'typed.js';
 const IntoSkillsComponent = () => {
   useEffect(() => {
     const options = {
-      strings: ["Data Analytics", "Machine Learning", "Business Analytics", "ML Ops", "Backend Development","Data Analytics"],
+      strings: ["Data Science", "Quantitative Finance", "Risk Management"],
       typeSpeed: 50,
       backSpeed: 25,
       backDelay: 500,

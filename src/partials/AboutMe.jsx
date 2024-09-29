@@ -28,7 +28,7 @@ function AboutMe() {
         </div>
         
         <div class="resumebtn">
-            <a href="https://drive.google.com/drive/u/1/folders/14ZJJbMmCLr0cLns4YQ2waF2PAfU9rlt1/view" target="_blank" class="btn"><span>Resume</span>
+            <a href="https://drive.google.com/file/d/10X5DGd-Emwme1VSLCSwbpc2SsMvIb2G3/view" target="_blank" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
